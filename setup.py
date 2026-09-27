@@ -9,12 +9,12 @@ kw = {
 setup(
 
     cpp_ext(
-        "hwlib/hardware.cpp", **kw, 
+        "hwdev/hardware.cpp", **kw, 
         platforms = ['win32'],
     ),
 
     cpp_ext(
-        "hwlib/hardware.cpp", **kw, 
+        "hwdev/hardware.cpp", **kw, 
         platforms = ['linux', 'darwin'],
         extra_objects = [
             "headers/hwinfo/*.a",
