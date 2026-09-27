@@ -4,7 +4,7 @@
 #include <vector>
 
 #include <json.hpp>
-#include <_hw/device.h>
+#include <device.h>
 #include <subprocess.hpp>
 #include <remap.h>
 

@@ -17,7 +17,7 @@
 #include <stru.h>
 #include <remap.h>
 
-#include <_hw/device.h>
+#include <device.h>
 
 struct HardDrive : public Device {
 

@@ -11,7 +11,7 @@
 #include <hwinfo/hwinfo.h>
 #include <remap.h>
 
-#include <_hw/device.h>
+#include <device.h>
 
 #include "pciutils/pciutils.hpp"
 
