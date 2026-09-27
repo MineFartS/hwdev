@@ -6,8 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "hwdev"
 version = "v2026.09.27"
 requires-python = ">=3.12"
-dependencies = [ ]
+dependencies = []
 
 [tool.setuptools.packages.find]
-exclude = [ "wheelhouse*", "headers*"]
-
+exclude = [ "wheelhouse*", "headers*",]
